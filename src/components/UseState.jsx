@@ -3,9 +3,9 @@ import '../App.css'
 
 function UseState() {
     const [count , setCount] = useState(0);
-    const inc= () => setCount (count + 1);
-    const dec = () => setCount (count - 1);
-    const reset = () => setCount (count * 0)
+    const inc= () => {setCount (count + 1)};
+    const dec = () => {setCount (count - 1)};
+    const reset = () => {setCount (count * 0);}
     
   return (
     <>
